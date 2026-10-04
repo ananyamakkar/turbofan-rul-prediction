@@ -1,0 +1,9 @@
+{
+  "lstm": {
+    "val_rmse": 12.76699161529541,
+    "test_rmse": 14.826937675476074,
+    "test_score": 424.04742431640625,
+    "epochs": 30,
+    "note": "single run, seed 42, best epoch chosen on validation"
+  }
+}
