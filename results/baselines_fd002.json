@@ -1,0 +1,20 @@
+{
+  "mean": {
+    "val_rmse": 41.72836685180664,
+    "test_rmse_capped": 43.55384063720703,
+    "test_rmse_true": 53.779178619384766,
+    "test_score": 124600.765625
+  },
+  "ridge": {
+    "val_rmse": 17.833820343017578,
+    "test_rmse_capped": 16.877216339111328,
+    "test_rmse_true": 29.092309951782227,
+    "test_score": 13379.6484375
+  },
+  "xgboost": {
+    "val_rmse": 15.063028335571289,
+    "test_rmse_capped": 13.784896850585938,
+    "test_rmse_true": 26.648603439331055,
+    "test_score": 8688.7412109375
+  }
+}
