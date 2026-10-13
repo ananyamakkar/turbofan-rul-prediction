@@ -1,0 +1,28 @@
+{
+  "lstm_regularized_5_seeds": {
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "val_rmse": [
+      14.938289451599122,
+      0.19444735675953365
+    ],
+    "test_rmse_capped": [
+      14.84021816253662,
+      0.2795184457356572
+    ],
+    "test_rmse_true": [
+      27.306958770751955,
+      0.6260809579524966
+    ],
+    "test_score": [
+      10138.1580078125,
+      2038.4372897328374
+    ],
+    "note": "each pair is [mean, std] over seeds; dropout 0.3, AdamW weight decay 1e-4, LR plateau schedule, early stopping patience 6"
+  }
+}
